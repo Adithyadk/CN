@@ -1,8 +1,7 @@
 import java.io.*;
-import java.math.BigInteger;
-import java.nio.charset.StandardCharsets;
+import java.math.*;
 import java.util.*;
-class RSA
+public class RSA
 {
     private BigInteger p, q, N, phi, e, d;
     private int bitLength = 1024;
@@ -44,7 +43,12 @@ class RSA
         byte[] encrypted = rsa.encrypt(str.getBytes());
         byte[] decrypted = rsa.decrypt(encrypted);
         
-        System.out.println("Decrypted string: " + new String(decrypted, StandardCharsets.UTF_8));
+        System.out.println("Encrypted Byte Array: "+Arrays.toString(encrypted));
+        System.out.println();
+        System.out.println("Decrypted Byte Array: " + Arrays.toString(decrypted));
+        
+         String decryptedString = new String(decrypted);
+         System.out.println("Decrypted String: " + decryptedString);
 
     }
 
