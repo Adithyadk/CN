@@ -1,5 +1,5 @@
 import java.net.*;
-public class UDPServer 
+public class UDPS
 {
     public static void main(String args[]) throws Exception 
     {
