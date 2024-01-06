@@ -61,11 +61,11 @@ The course aims to enable students to:
     - b. Implement the transmission of ping messages/trace route over a network topology consisting of 6 nodes and find the number of packets dropped due to congestion.
 
 11. **Program 11**
-   - a. Implement an Ethernet LAN using n nodes and set multiple traffic nodes. Plot congestion window for different source/destination pairs.
-   - b. Implement a simple ESS (Extended Service Set) with transmitting nodes in a wireless LAN. Simulate and determine the performance concerning the transmission of packets.
+    - a. Implement an Ethernet LAN using n nodes and set multiple traffic nodes. Plot congestion window for different source/destination pairs.
+    - b. Implement a simple ESS (Extended Service Set) with transmitting nodes in a wireless LAN. Simulate and determine the performance concerning the transmission of packets.
 
 12. **Program 12**
     - a. Implement and study the performance of GSM on NS2/NS3 (Using MAC layer) or equivalent environment.
     - b. Implement and study the performance of CDMA on NS2/NS3 (Using stack called Call net) or equivalent environment.
 
-- Feel free to explore each program within the respective directories in this repository for details and implementation. -
+- Feel free to explore each program within the respective directories in this repository for details and implementation. 
